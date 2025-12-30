@@ -203,7 +203,13 @@ header {
     transition: 0.3s;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
-
+.course-card a {
+    text-decoration: inherit;
+    color: var(--verde-secundario);
+}
+.course-card a:hover {
+    color: var(--verde-principal)
+}
 .course-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
